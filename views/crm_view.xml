@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-
+    <data>
     <!-- model.name inherit tree view -->
     <record id="jt_email_to_lead.crm_case_tree_view_leads" model="ir.ui.view">
         <field name="name">jt_email.to.lead.crm.case.tree.view.leads</field>
@@ -29,7 +29,6 @@
     </record>
 
 
-    <data>
         <!-- lead.labels tree view -->
         <record id="crm_labels_tree_view" model="ir.ui.view">
             <field name="name">CRM Labels Tree View</field>
